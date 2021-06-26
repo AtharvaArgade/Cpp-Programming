@@ -28,7 +28,7 @@ public:
 	{
 		char Arr[20];
 		read(fd, Arr, 10);
-		write(1,Arr,10);   // printf("%s",Arr)
+		write(1,Arr,10);  
 	}
 
 	~FileX()
