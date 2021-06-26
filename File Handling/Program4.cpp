@@ -26,7 +26,7 @@ public:
 
 	void ReadData()
 	{
-		char Arr[20]={'\0'};  // if we donot take {'\0'} then Arr will display garbage value infort 
+		char Arr[20]={'\0'}; 
 		read(fd, Arr, 10);
 		cout<<Arr<<"\n";
 	}
