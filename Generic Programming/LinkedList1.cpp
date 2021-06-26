@@ -12,7 +12,7 @@ template <class T>
 class SinglyLL
 {
 private:
-	struct node<T> *Head;    // structure is generic so we have used <T>
+	struct node<T> *Head;   
 	int iSize;
 
 public:
