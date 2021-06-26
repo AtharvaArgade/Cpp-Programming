@@ -18,8 +18,6 @@ public:
 	}
 
 // Time complexity is O(N) where N is no of letters in string
-// loops inside if and else condition are to skip spaces and letters in word 
-// We are just increasing ptr
 
 	int WordCount()
 	{
