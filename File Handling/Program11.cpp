@@ -4,8 +4,6 @@
 #include<unistd.h>
 #include<fcntl.h>
 
-// #define O_WRONLY 0x008
-// #define O_APPEND ox004
 using namespace std;
 
 class FileX
