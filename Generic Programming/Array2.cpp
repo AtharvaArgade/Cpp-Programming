@@ -48,8 +48,7 @@ int main()
 {
 	int iRet = 0;
 	// Array obj(5)     // Specific class
-	Array <int>obj1(5);   // Generic class   -> Replace every T in class with int
-
+	Array <int>obj1(5);   // Generic class  
 	obj1.Accept();
 	iRet = obj1.Maximum();
 	cout<<"Maximum is : "<<iRet<<endl;
