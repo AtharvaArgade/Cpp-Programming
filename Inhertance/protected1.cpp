@@ -12,9 +12,6 @@ protected:
   int k;
 };
 
-// class Derived1 : private Base
-// class Derived2 : protected Base
-// output is same in all three cases.
 
 class Derived1 : public Base
 {
